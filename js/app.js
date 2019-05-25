@@ -7,6 +7,8 @@ if(navigator.serviceWorker){
         swLocation='/sw.js';
     }
     navigator.serviceWorker.register(swLocation);
+
+    console.log(swLocation);
 }
 
 // Referencias de jQuery
